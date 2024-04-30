@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bhaado:hover{
+    background-color: red;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vh;
+    height: 80vh;
+    border: 2px solid black;
+}
+.reset{
+    margin: 20px;
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+.reset:hover{
+    color: white;
+    background-color: #333333;
+}
